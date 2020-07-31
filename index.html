@@ -4,279 +4,252 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <!--font awesome-->
+    <link href="css/all.css">
     <script src="js/jquery-3.5.1.js"></script>
-    <script src="js/scripts.js"></script>
-    
+    <script src="js/scripts.js"></script>   
     <title>Izza Pizza</title>
+    <link href="https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Shadows Into Light', cursive;
+        }
+    </style>
+    <style>
+        body {
+  background-image: url('css/img/light.jpeg');
+  background-repeat: no-repeat;
+  background-attachment: fixed; 
+  background-position: center; 
+  background-size: cover;
+  opacity: 0.8;
+    </style>
 </head>
-<body>
-    <h1>Izza Pizza</h1>
-    <div class="box1">
-        <!--for first box-->
-        <style>
-            .box1 {
-                height: 100vh;
-                width: 100%;
-                background-image: url("css/img/pizza.jpeg");
-                background-size: cover;
-                background-position: cover;
-                display: table;
-                background-attachment: fixed;
-            }
-        </style>
-    </div>
-        <nav class="navbar navbar-expand-lg px-4">
-            <a class="navbar-brand" href="#"><img src="css/img/icon.png" alt=""></a>
-            <button class="navbar-toggler" type="button" data-toogle="collapse" data-target="#myNav">
-                <span class="toggler-icon"><i class="fas fa-bars"></i></span>
-            </button>
-            <div class="collapse navbar-collapse" id="myNav">
-                <ul class="navbar-nav mx-auto text-capitalize">
-                    <li class="nav-item active">
-                        <a class="nav-link" href="#">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">About</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Store</a>
-                    </li>
-                </ul>
-                <div class="nav-info-items d-none d-lg-flex">
-                    <div class="nav-info-align-items-center d-flex justify-content-between mx-lg-5">
-                        <span class="info-icon mx-lg-3"><i class="fas fa-phone"></i></span>
-                        <p class="mb-0">+254 721 436 587</p>
-                    </div>
-                </div>
-            </div>
-        </nav>
-        
-        Content to be here.
-    </div>
-    <section class="about py-5" id="about">
-        <div class="container">
 
-            <div class="row">
-                <div class="col-10 mx-auto col-md-6 my-5">
-                    <h1 class="text-capitalize">About <strong class="banner-title">Us</strong></h1>
-                    <p class="my-4 text-muted w-75">Will write something about the pizza palace</p>
-                    <!--Bootstrap helper class to Apply light grey color (#6c757d) on text.-->
-                    <a href="#" class="btn btn-outline-secondary btn-black text-uppercase">Wanna eat</a>
-                </div>
-                
-                    <div class="about-img_container">
-                        <img src="css/img/pizza3.jpeg" class="img-fluid" alt="">
-                    </div>
-                
+    <body>
+        <header>
+            <div class="container">
+                <nav class="nav">
+                    <ul class="links">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Taste</a></li>
+                        <li><a href="#">Services</a></li>
+                        <li><a href="#">Contact us</a></li>
+                    </ul>
+                </nav>
             </div>
+        </header>
+        <div class="HomeSlide ">
+            <h6>WELCOME TO KINGS PIZZA<br>
+                <em>The Best Pizza in the Planet
+                    <br>
+                    Ask Madagascar</em><
+                    /h6>
         </div>
-    </section>
-    
-    <div class="box2">
-        <!--for second box-->
-        <style>
-            .box2 {
-                height: 100vh;
-                width: 100%;
-                background-image: url("css/img/pizza1.jpg");
-                background-size: cover;
-                background-position: cover;
-                display: table;
-                background-attachment: fixed;
-            }
-        </style>
-        <div class="container-fluid" id="whatsize">
-            <h1 class="text-center">Our Prices</h1>
+        <br><br>
+        <br><br>
+        <section class="about py-5" id="about">
+    <div class="container">
+      <div class="row">
+        <div class="col-10 mx-auto col-md-6 my-5">
+          <h1 class="text-capitalize">about <strong class="banner-title ">us</strong></h1>
+          <p>
+            If you did ask Madagascar, then they refered you to us. Izza Pizza is the hottest pizza joint in town open 24/7 with enough room to even hold parties and gatherings. Our ingredients are locally sourced and all natural.
+            If you are in a hurry, then you can call ealier and your order will be prepared before you set foot inside. 
+            izza pizza lazza!!!</p>
+            <h1><b><u>Taste</u>
+                </b>
+                </h1>
+            “Just pizza? Let me tell you the thing you say is “just pizza”. We begin with the first bite. Oh, the crunch. And then the marinara. That roiling lava of tomato and oregano - it overtakes you. I’m falling and that’s when she catches you. That chewy, voluptuous mistress, Mozzarella. Her oven-kissed cheeks crackle with warmth in your mouth, cradling the sauce and the bread, letting you know that from now on, this is home. This pizza is home.”
+        </div>
+        <div class="col-10 mx-auto col-md-6 align-self-center my-5">
+          <div class="about-img__container">
+            <img src="css/img/taste.jpeg" class="img-fluid" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+        <div class="container-fluid" id="pizzaSizes">
+            <h1 class="text-center">PIZZA PRICES</h1>
             <div class="card-deck text-center">
-                <!--set the images to arrange in a card like formation-->
                 <div class="card">
                     <img src="css/img/large.jpeg" class="img-fluid" alt="">
-                    <!--add an image-->
                     <div class="card-1">
-                        <p class="ptag font-weight-bold text-uppercase">Large
+                        <p class="ptag font-weight-bold text-uppercase">Large Pizza
                             <br>
-                            &nbsp;Ksh &nbsp;1,000/=
+                            &nbsp;
+                            Ksh&nbsp;1,000/=
                         </p>
                     </div>
                 </div>
                 <div class="card">
                     <img src="css/img/medium.jpeg" class="img-fluid" alt="">
-                    <!--add an image-->
                     <div class="card-1">
                         <p class="ptag font-weight-bold text-uppercase">Medium
+                            &nbsp;
                             <br>
-                            &nbsp;Ksh &nbsp;500/=
-                            </p>
-                    </div>
-                </div>
-                <div class="card">
-                    <img src="css/img/small.jpeg" class="img-fluid" alt="">
-                    <!--add an image-->
-                    <div class="card-1">
-                        <p class="ptag font-weight-bold text-uppercase">Small
-                            <br>
-                            &nbsp;Ksh &nbsp;1,000/=
+                            &nbsp;
+                            Kshs&nbsp;500/=
                         </p>
                     </div>
                 </div>
                 <div class="card">
-                    <img src="css/img/small.jpeg" class="img-fluid" alt="">
-                    <!--add an image-->
+                    <img src="css/img/stuffed.jpeg" class="img-fluid" alt="">
                     <div class="card-1">
-                        <p class="ptag font-weight-bold text-uppercase">Weather <br>Informer</p>
+                        <p class="ptag font-weight-bold text-uppercase">Small
+                            <br>
+                            &nbsp;
+                            Ksh&nbsp;250/=
+                        </p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="css/img/pizza3.jpeg" class="img-fluid" alt="">
+                    <div class="card-1">
+                        <p class="ptag font-weight-bold text-uppercase">You want it,
+                            <br>
+                            &nbsp;
+                            We have it
+                        </p>
                     </div>
                 </div>
             </div>
-                <div class="container-fluid" id="toppin">
-                    <h1 class="text-center">Toppings</h1>
-                    <div class="card-deck text-center">
-                        <!--set the images to arrange in a card like formation-->
-                        <div class="card">
-                            <img src="css/img/veges.jpeg" class="img-fluid" alt="">
-                            <!--add an image-->
-                            <div class="card-1">
-                                <p class="ptag font-weight-bold text-uppercase">Vegetable
-                                    <br>
-                                    Price Included
-                                </p>
-                            </div>
-                        </div>
-                        <div class="card">
-                            <img src="css/img/stuffed.jpeg" class="img-fluid" alt="">
-                            <!--add an image-->
-                            <div class="card-1">
-                                <p class="ptag font-weight-bold text-uppercase">Stuffed
-                                    <br>
-                                    Price Included
-                                </p>
-                            </div>
-                        </div>
-                        <div class="card">
-                            <img src="css/img/crispy.jpeg" class="img-fluid" alt="">
-                            <!--add an image-->
-                            <div class="card-1">
-                                <p class="ptag font-weight-bold text-uppercase">Crispy
-                                    <br>
-                                    Price Included
-                                </p>
-                            </div>
-                        </div>
-                        <div class="card">
-                            <img src="css/img/gluten.jpeg" class="img-fluid" alt="">
-                            <!--add an image-->
-                            <div class="card-1">
-                                <p class="ptag font-weight-bold text-uppercase">Gluten Free
-                                    <br>
-                                    Price Included
-                                </p>
-                            </div>
-                        </div>
+        </div><br><br><br>
+        <div class="container-fluid" id="pizzaSizes">
+            <h1 class="text-center">PIZZA TOPPINGS</h1>
+            <div class="card-deck text-center">
+                <div class="card">
+                    <img src="css/img/veges.jpeg" class="img-fluid" alt="">
+                    <div class="card-1">
+                        <p class="ptag font-weight-bold text-uppercase">Veges
+                            <br>
+                            Price included in total, offer!!!
+                        </p>
                     </div>
-    <div class="box3">
-        <!--for third box-->
-        <style>
-            .box3 {
-                height: 100vh;
-                width: 100%;
-                background-image: url("css/img/pizza2.jpg");
-                background-size: cover;
-                background-position: cover;
-                display: table;
-                background-attachment: fixed;
-            }
-        </style>
-        <div clas="jumbotron">
-            <h2>Yeah ni tamu</h2>
+                </div>
+                <div class="card">
+                    <img src="css/img/gluten.jpeg" class="img-fluid" alt="">
+                    <div class="card-1">
+                        <p class="ptag font-weight-bold text-uppercase">Glutten free
+                            <br>
+                            Price included in total, offer!!!
+                        </p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="css/img/crispy.jpeg" class="img-fluid" alt="">
+                    <div class="card-1">
+                        <p class="ptag font-weight-bold text-uppercase">Crispy
+                            <br>
+                            Price included in total, offer!!!
+                        </p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="css/img/stuffed.jpeg" class="img-fluid" alt="">
+                    <div class="card-1">
+                        <p class="ptag font-weight-bold text-uppercase">stuffed
+                            <br>
+                            Price included in total, offer!!!
+                        </p>
+                    </div>
+                </div>
+            </div>
         </div>
-        <main class="container1" >
-            <h3>Want to order a pizza</h3>
-            <h3>Want no more</h3>
-            <h3>Here we are</h3>
-            <form class="book">
-                <div id="client-name" class="form-group">
-                    <h5>Name : &nbsp;</h5>
-                    <input id="client-name-input" type="text">
-                </div>
-                <br>
-                <div id="add-pizza">
-                    <div class="another-pizza">
+        </div>
+        <br><br><br>
+        <br><br>
+        <main class="container">
+            <h3>Want to order?</h3>
+            <h3>Izza PIZZA</h3>
+            <br>
+            <h3>What are you waiting for?</h3>
+            <br>
+            <form class="order-form">
+                <div id="customer-name" class="form-group">
+                    <h5> Name : </h5>
+                    <input id="customer-name-input" type="text">
+                </div><br>
+                <div id="new-pizzas-section">
+                    <div class="new-pizza">
                         <div class="form-group">
-                        <h5>What size would you prefer : &nbsp;</h5>
-                        <select class="pizza-size-input">
-                            <option value="small">Small</option>
-                            <option value="small">Medium</option>
-                            <option value="small">Large</option>
-                        </select>
+                            <h5> Choose Your Size : </h5>
+                            <select class="pizza-size-input">
+                                <option value=""></option>
+                                <option value="small">Small</option>
+                                <option value="medium">Medium</option>
+                                <option value="large">Large</option>
+                            </select>
+                        </div><br>
+                        <div class="pizza-toppings" class="form-group">
+                            <h5>Please choose what topping you'd like </h5>
+                            <input type="checkbox" name="topping" value="bell-peppers">
+                            &nbsp;Bell Peppers
+                            <br>
+                            <input type="checkbox" name="topping" value="mushrooms"> Mushrooms<br>
+                            <input type="checkbox" name="topping" value="spinach"> Spinach<br>
+                            <input type="checkbox" name="topping" value="artichokes"> Artichokes<br>
+                            <input type="checkbox" name="topping" value="chicken"> Chicken<br>
+                            <input type="checkbox" name="topping" value="pepperoni"> Pepperoni<br>
+                            <input type="checkbox" name="topping" value="sausage"> Sausage<br>
+                            <input type="checkbox" name="topping" value="pesto">
+                            &nbsp;Pesto
+                            <br>
+                            <input type="checkbox" name="topping" value="bbq-sauce">
+                            &nbsp;BBQ Sauce
+                            <br>
+                            <input type="checkbox" name="topping" value="feta-cheese">
+                            &nbsp;Feta Cheese
+                            <br>
+                        </div>
                     </div>
-                    <br>
-                    <div class="toppings" class="form-group">
-                        <h5>Choose ... blah blah</h5>
-                        <input type="checkbox" name="topping" value="">Name of type
-                        <br>
-                        <input type="checkbox" name="topping" value="">Name of type
-                        <br>
-                        <input type="checkbox" name="topping" value="">Name of type
-                        <br>
-                        <input type="checkbox" name="topping" value="">Name of type
-                        <br>
-                        <input type="checkbox" name="topping" value="">Name of type
-                        <br>
-                        <input type="checkbox" name="topping" value="">Name of type
-                        <br>
-                        <input type="checkbox" name="topping" value="">Name of type
-                        <br>
-                        <input type="checkbox" name="topping" value="">Name of type
-                        <br>
-                        <input type="checkbox" name="topping" value="">Name of type
+                    <div class="additional-pizzas">
                     </div>
-                    <br><br>
-                </div>
-                <div class="to-add-extra-pizzas">
-    
-                </div>
-    
                 </div>
                 <div class="buttons">
-                    <span id="add-pizza-button" class="btn btn-default">Add extra Pizza</span>
+                    <span id="add-pizza-button" class="btn btn-default ">Add Another Pizza</span>
                     <br><br>
-                    <button id="pizza-form-submit" type="submit" class="btn btn-default form-submit">Order</button>
+                    <button id="pizza-form-submit" type="submit" class="btn btn-default form-submit">Place Order</button>
                 </div>
-            </form>
-            <br><br>
+            </form><br><br>
             <div class="output">
-                <h3>Confirmation for order</h3>
-                <h4><span class="output-name">Time for order to be ready</span></h4>
-                <p><span class="output-order"></span></p>
-                <p>total is &nbsp; <span class="output-order-total"></spanAmount in shillings></p>
+                <h3>Order Confirmation:</h3>
+                <h4><span class="output-name">
+                </span>
+                your order will be ready soon!</h4>
+                <p><span class="output-order">
+                </span>
+            </p>
+                <p>Your order total is <span class="output-order-total">
+                </span>&nbsp;KSH!!
+            </p>
             </div>
-        </main>
-        <div class="Contacts">
-    
-            <form action="put link to cmail chimp here" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="blank" nonvalidate>
-                <div class="Contact-us">
-                    <br>
-                    <h4>CONTACT US</h4>
-                    <input type="text" name="NAME" class="" id="mce-NAME" placeholder="Name ... &nbsp;">
-                    &nbsp;&nbsp;
-                    <input type="email" name="EMAIL" class="required email" id="mce-EMAIL" placeholder="Email ... &nbsp;">
-                    <br><br>
-                    <textarea type="text" name="MESSAGE" id="mce-MESSAGE" class="message" id="" cols="35" rows="10"
-                            placeholder="Your message here &nbsp;">
-                        </textarea>
-                        <br>
+            </main>
+            <div class="Contacts">
+                <!--contact us form -->
+                <form action="http://eepurl.com/g_aNs9" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+                    <div class="Contact-us"><br>
+                        <H4>Contact Us</H4><br><br>
+                        <input type="text" name="NAME" class="" id="mce-NAME" placeholder="Name.....">
+                        &nbsp;&nbsp;
+                        <input type="email" name="EMAIL" class="required email" id="mce-EMAIL" placeholder="Email.....">
+                        <br><br>
+                        <textarea type="text" name="MESSAGE" id="mce-MESSAGE" class="message" id="" cols="35" rows="10"
+                            placeholder="Your message here ....."></textarea><br>
                         <button type="submit" class="btn btn-primary button" name="subscribe"
                             id="mc-embedded-subscribe">Submit</button>
                     </div>
-                </div>
-            </form>
-        </div>
-        <div class="footer">
-            <footer>
-                &copy;Izza Pizza 2020
-            </footer>
-        </div>
-    
-
-
+                </form>
+            </div><br><br>
+            <div class="Footer" text-align="text-center">
+                <footer>
+                    <P>&COPY;Izza PIZZA 2020</P>
+                </footer>
+            </div>
+    </body>
+    </html>
 </body>
 </html>

@@ -1,11 +1,13 @@
 body {
     margin: 0;
     padding: 0;
-}
+    color: white;
+ }
+
 .about-img__container {
     position: relative;
   }
-  .about-img__container::before {
+.about-img__container::before {
     content: "";
     position: absolute;
     top: -1.5rem;
@@ -16,18 +18,18 @@ body {
     z-index: -1;
     transition: all 1s ease-in-out;
   }
-  .about-img__container:hover:before {
+.about-img__container:hover:before {
     top: 0;
     left: 0;
   }
-  h6 {
+h6 {
     padding-top: 400px;
     text-align: center;
     color: white;
     font-size: 40px;
     font-weight: bolder;
   }
-  H3{
+H3{
     text-align: center;
     font-weight: bold;
 }
@@ -46,9 +48,22 @@ em {
   position: relative;
   overflow: hidden;
 }
+.card-1 {
+  position: absolute;
+  cursor: pointer;
+  min-height: 100%;
+  transition: all 0.5s ease;
+  background: white;
+  width: 100%;
+  opacity: 0;
+}
+.card:hover img {
+  transform: scale(1.2);
+  transition: all 0.3s ease;
+}
 .ptag {
   padding: 5% 0;
-  background-color: #0000004d;
+  background-color: white;
   padding: 50px 10px;
   font-weight: 100%;
   font-family: 'Merienda', cursive;
@@ -61,4 +76,33 @@ em {
   overflow: hidden;
   letter-spacing: 2px;
 
+}
+.HomeSlide {
+  height: 150vh;
+}
+.Contacts {
+  text-align: center;
+  color: rgb(38, 206, 16);
+  height: 100vh;
+  padding-top: 50px;
+}
+input {
+  width: 400px;
+  background: transparent;
+  color: white;
+}
+
+textarea {
+  width: 750px;
+  height: 300px;
+  background: transparent;
+  color: white;
+}
+
+::placeholder {
+  color: white;
+  font-weight: bold;
+}
+.Footer {
+  text-align: center;
 }
