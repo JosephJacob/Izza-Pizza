@@ -1,0 +1,29 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+.about-img__container {
+    position: relative;
+  }
+  .about-img__container::before {
+    content: "";
+    position: absolute;
+    top: -1.5rem;
+    left: -1.7rem;
+    width: 100%;
+    height: 100%;
+    outline: 0.5rem solid var(--mainYellow);
+    z-index: -1;
+    transition: all 1s ease-in-out;
+  }
+  .about-img__container:hover:before {
+    top: 0;
+    left: 0;
+  }
+  h6 {
+    padding-top: 400px;
+    text-align: center;
+    color: white;
+    font-size: 40px;
+    font-weight: bolder;
+  }
