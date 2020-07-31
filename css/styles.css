@@ -38,3 +38,27 @@ H2{
 em {
   font-size: 23px;
 }
+#whatsize {
+  width: 100%;
+}
+.card {
+  margin: 10px 0;
+  position: relative;
+  overflow: hidden;
+}
+.ptag {
+  padding: 5% 0;
+  background-color: #0000004d;
+  padding: 50px 10px;
+  font-weight: 100%;
+  font-family: 'Merienda', cursive;
+  line-height: 90%;
+  margin: 20% 5%;
+  padding-top: 30px;
+  border: 4px solid whitesmoke;
+  font-size: 1.1em;
+  color: white;
+  overflow: hidden;
+  letter-spacing: 2px;
+
+}
