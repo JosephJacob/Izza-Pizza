@@ -37,6 +37,8 @@ Pizza.prototype.singlePieCost = function () {
     this.cost = 250 + this.numberOfToppings;
   } else if (this.size === "medium"){
     this.cost = 500 + this.numberOfToppings;
+  } else if (this.size === "") {
+    this.cost = 0; 
   } else {
     this.cost = 1000 + this.numberOfToppings;
   }
