@@ -5,7 +5,11 @@ $(document).ready(function () {
 },
 function(){4
     $(this).animate({opacity:'0'});
-    });    
+    });  
+    $('#mc-embedded-subscribes').click(function () {
+      var name = document.getElementById("names").value;
+      alert("Hey " + name + ". We have received your order. It will incurr additional charge of 170/= for delivery. See you in 30 mins!");
+  });  
       $('#mc-embedded-subscribe').click(function () {
           var name = document.getElementById("mce-NAME").value;
           alert("Hey " + name + ". We have received your details thank you for reaching us!");

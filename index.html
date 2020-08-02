@@ -214,7 +214,7 @@
                     </div>
                 </div>
                 <div class="buttons">
-                    <span id="add-pizza-button" class="btn btn-default " style="background-color: #FFFFFF;">Add Another Pizza</span>
+                    <span id="add-pizza-button" class="btn btn-default " style= "background-color: #FFFFFF;">Add Another Pizza</span>
                     <br><br>
                     <button id="pizza-form-submit" type="submit" class="btn btn-default form-submit" >Place Your Order</button>
                 </div>
@@ -232,6 +232,44 @@
             </p>
             </div>
             </main>
+            <div class="d-block mx-auto text-center">
+        <button class='deliver'>Provide Location Details for Delivery</button>
+    </div>
+    <div class="cdata-overlay">
+        <div class="customerdata row">
+            <div class="col-sm-3"></div>
+            <form action="" class="form-group col-sm-6 data" id="data" id="mc-embedded-subscribe-forms"method="POST">
+                <input type="text" class="form-control cdata" name="NAMES" id="names" placeholder="Enter your Name:">
+                <input type="text" class="form-control cdata" id="number" placeholder="Enter your phone number: ">
+                <input type="text" class="form-control cdata" id="location" placeholder="Enter the location: ">
+                <label for="">Choose your pizza size</label>
+                    <select class="form-control" name="size" id="size">
+                        <option value="1000">Large @ ksh 1,000</option>
+                        <option value="500">Medium @ ksh 500</option>
+                        <option value="250">Small @ ksh 250</option>
+                    </select>
+                    <label for="">Choose your desired crust type</label>
+                    <select class="form-control" name="" id="crust">
+                        <option value="cr" name="crust">stuffed crust
+                        <option value="cr" name="crust">Crispy
+                        <option value="cr" name="crust">Glutten free
+                        <option value="cr" name ="crust">Vegetable
+                    </select>
+                    <label for="">Choose your Desired toppings</label> <br>
+                    <input value="tp" type="checkbox" id="topps">Mushrooms
+                    <input value="tp" type="checkbox" id="topps">Spinach
+                    <input value="tp" type="checkbox" id="topps">Artichokes
+                    <input value="tp" type="checkbox" id="topps">Chicken
+                    <input value="tp" type="checkbox" id="topps">Pepperoni
+                    <input value="" type="checkbox" id="topps">Sausage
+                    <label for="">Input Quantity</label>
+                    <input class="form-control form-group" type="text" id="numberofpizza">
+                <button class="btn bg-info text-center d-block mx-auto go" type="submit" id="mc-embedded-subscribes">Make Delivery</button>
+            </form>
+
+            <div class="col-sm-3"></div>
+        </div>
+    </div>
             <div class="Contacts" id="conta">
                 <!--contact us form -->
                 <form action="http://eepurl.com/g_aNs9" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
