@@ -52,6 +52,7 @@ $(document).ready(function(){
                                   + '<div class="form-group">'
                                   + '<h5> Choose Your Size: </h5>'
                                   +'<select class="pizza-size-input">'
+                                  +'<option value=""></option>'
                                   +'<option value = "small">Small</option>'
                                   +'<option value = "medium">Medium</option>'
                                   +'<option value = "large">Large</option>'
